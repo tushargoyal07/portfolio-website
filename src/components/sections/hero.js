@@ -45,19 +45,18 @@ const StyledHeroSection = styled.section`
     margin-top: 50px;
   }
   .blink {
-    animation: blink-animation 1s infinite linear alternate ;
+    animation: blink-animation 1s infinite linear alternate;
     color: rgb(237, 237, 237);
   }
-  
+
   @keyframes blink-animation {
     0% {
-    opacity: 0;
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
-  100% {
-    opacity: 1;
-  }
-  }
-  
 `;
 
 const Hero = () => {
@@ -79,12 +78,16 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        "Hi, I'm Tushar Goyal, a Software Developer interning at Evotech. Skilled in TypeScript and React, I'm passionate about crafting engaging digital experiences. I'm an undergraduate at NIT Jalandhar. "
-        <div className='blink '>Let's connect!</div>
-        {/* <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
-        </a> */}
-        
+        Hi, I'm Tushar Goyal, a Software Developer interning at Evotech. Skilled in TypeScript and
+        React, I'm passionate about crafting engaging digital experiences. I'm an undergraduate at
+        NIT Jalandhar.
+        <a
+          href="https://www.linkedin.com/in/tushargoyal07/"
+          target="_blank"
+          rel="noreferrer"
+          className="blink ">
+          Let's connect!
+        </a>
       </p>
     </>
   );

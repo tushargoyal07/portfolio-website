@@ -7,7 +7,7 @@ module.exports = {
       'Tushar Goyal, a Software Developer interning at Evotech. Skilled in TypeScript and React, He is passionate about crafting engaging digital experiences. ',
     siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@tushargoyal_07',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,7 +26,7 @@ module.exports = {
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
-        icon: 'src/images/logo.png',
+        icon: 'src/images/logoT.png',
       },
     },
     `gatsby-plugin-offline`,
